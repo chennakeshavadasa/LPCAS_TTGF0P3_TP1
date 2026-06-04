@@ -49,6 +49,9 @@ Lab Website: https://sites.google.com/iitgn.ac.in/madhav-pathak
 4. **DC Input/output Swing in Unity Buffer Configuration**: 
 <img width="937" height="1033" alt="IEEE_DC" src="https://github.com/user-attachments/assets/94728a10-fdf7-4b29-b086-156ac350c653" />
 
+5. **Monte Carlo Simulation(Offset)**
+<img width="1920" height="1440" alt="offset_monte_carlo_histogram_mv" src="https://github.com/user-attachments/assets/39ece079-7a5c-4926-ab92-ac34559e82fa" />
+
 ---
 
   
