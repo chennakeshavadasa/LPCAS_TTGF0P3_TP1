@@ -1,5 +1,6 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg)
 
+<!--
 # Tiny Tapeout Analog Project Template
 
 - [Read the documentation for project](docs/info.md)
@@ -9,10 +10,31 @@
 Tiny Tapeout is an educational project that aims to make it easier and cheaper than ever to get your digital designs manufactured on a real chip.
 
 To learn more and get started, visit https://tinytapeout.com.
+-->
+
+# Description
+TTGF0P3_LPCAS_FC_OTA is a low-power Folded Cascode Operational Transconductance Amplifier (OTA) designed in the TTGF0P3 process. The amplifier is optimized for low-current operation while maintaining a large input common-mode range and output swing, making it suitable for a wide variety of analog signal-processing applications.
+
+Lab Website: https://sites.google.com/iitgn.ac.in/madhav-pathak
+
+### People Involved:
+
+| Name | Affiliation | Email |
+|------|-------------|-------|
+| [**Nithin P**](https://www.linkedin.com/in/nithin-purushothama-70664727b/) | IIT Gandhinagar | [nithinpurushothama@gmail.com](mailto:nithinpurushothama@gmail.com) |
+| [**Kartikay Mani Tripathi**](https://www.linkedin.com/in/kartikay-mani-tripathi-64a7b68b/) | IIT Roorkee | [km_tripathi@ece.iitr.ac.in](mailto:km_tripathi@ece.iitr.ac.in) |
+| [**Prof. Madhav Pathak**](https://iitgn.ac.in/faculty/ee/fac-madhav) | IIT Gandhinagar | [madhav.pathak@iitgn.ac.in](mailto:madhav.pathak@iitgn.ac.in) |
+
+### Circuit Diagram 
+
+<img width="1920" height="898" alt="TTGF0P3_LPCAS_FC_OTA" src="https://github.com/user-attachments/assets/2f6ddc37-044c-4ddb-a3e2-6cfaa8c8d46b" />
+
+<!--
 
 ## Analog projects
 
 For specifications and instructions, see the [analog specs page](https://tinytapeout.com/specs/analog/).
+
 
 ## Enable GitHub actions to build the results page
 
@@ -25,12 +47,4 @@ For specifications and instructions, see the [analog specs page](https://tinytap
 - [Learn how semiconductors work](https://tinytapeout.com/siliwiz/)
 - [Join the community](https://tinytapeout.com/discord)
 
-## What next?
-
-- [Submit your design to the next shuttle](https://app.tinytapeout.com/).
-- Edit [this README](README.md) and explain your design, how it works, and how to test it.
-- Share your project on your social network of choice:
-  - LinkedIn [#tinytapeout](https://www.linkedin.com/search/results/content/?keywords=%23tinytapeout) [@TinyTapeout](https://www.linkedin.com/company/100708654/)
-  - Mastodon [#tinytapeout](https://chaos.social/tags/tinytapeout) [@matthewvenn](https://chaos.social/@matthewvenn)
-  - X (formerly Twitter) [#tinytapeout](https://twitter.com/hashtag/tinytapeout) [@tinytapeout](https://twitter.com/tinytapeout)
-  - Bluesky [@tinytapeout.com](https://bsky.app/profile/tinytapeout.com)
+-->
