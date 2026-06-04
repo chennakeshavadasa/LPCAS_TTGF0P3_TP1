@@ -10,11 +10,11 @@
 # ------------------------------------------------
 set TOP_LEVEL_CELL     tt_um_LPCAS_TTGF0P3_TP1
 set TEMPLATE_FILE      tt_analog_1x2.def
-set POWER_STRIPE_WIDTH 2um                 ;# The minimum width is 0.8um
+set POWER_STRIPE_WIDTH 10um                 ;# The minimum width is 0.8um
 
 # Power stripes: NET name, x position. You can add additional power stripes for each net, as needed.
 set POWER_STRIPES {
-    VDPWR 1um
+    VAPWR 18um
     VGND  4um
 }
 # If you use the pgvaa (second supply) template, uncomment the line below:

@@ -1,0 +1,115 @@
+magic
+tech gf180mcuD
+magscale 1 5
+timestamp 1780579832
+<< checkpaint >>
+rect 110 6410 2460 6440
+rect 110 4014 2780 6410
+rect 3604 4538 5954 4568
+rect 3604 4014 6274 4538
+rect 110 1580 6274 4014
+rect -1030 796 6274 1580
+rect -1030 770 6528 796
+rect -1030 740 7356 770
+rect -1030 710 7676 740
+rect -1030 -1030 7996 710
+rect -710 -1060 7996 -1030
+rect -390 -1090 7996 -1060
+rect -140 -1120 7996 -1090
+rect 110 -1150 7996 -1120
+rect 430 -1180 7996 -1150
+rect 750 -1210 7996 -1180
+rect 1270 -1240 7996 -1210
+rect 1790 -1270 7996 -1240
+rect 2310 -1300 7996 -1270
+rect 2830 -1330 7996 -1300
+rect 3350 -1360 7996 -1330
+rect 3604 -1390 7996 -1360
+rect 3924 -1420 7996 -1390
+rect 4244 -1450 7996 -1420
+rect 4498 -1480 7996 -1450
+rect 4752 -1510 7996 -1480
+rect 5006 -1540 7996 -1510
+rect 5326 -1570 7996 -1540
+rect 5646 -1600 7996 -1570
+use nfet_03v3_4V78JF  XM1
+timestamp 0
+transform 1 0 145 0 1 275
+box -175 -305 175 305
+use nfet_03v3_4V78JF  XM2
+timestamp 0
+transform 1 0 465 0 1 245
+box -175 -305 175 305
+use nfet_03v3_2H836Q  XM3
+timestamp 0
+transform 1 0 3065 0 1 -65
+box -275 -205 275 205
+use nfet_03v3_2H836Q  XM4
+timestamp 0
+transform 1 0 3585 0 1 -95
+box -275 -205 275 205
+use pfet_03v3_4NU838  XM5
+timestamp 0
+transform 1 0 750 0 1 165
+box -140 -255 140 255
+use pfet_03v3_4NU838  XM6
+timestamp 0
+transform 1 0 1000 0 1 135
+box -140 -255 140 255
+use pfet_03v3_UY65W4  XM7
+timestamp 0
+transform 1 0 1285 0 1 2645
+box -175 -2795 175 2795
+use pfet_03v3_UY65W4  XM8
+timestamp 0
+transform 1 0 1605 0 1 2615
+box -175 -2795 175 2795
+use nfet_03v3_2H836Q  XM9
+timestamp 0
+transform 1 0 2025 0 1 -5
+box -275 -205 275 205
+use nfet_03v3_KF2WP5  XM10
+timestamp 0
+transform 1 0 2545 0 1 1387
+box -275 -1627 275 1627
+use nfet_03v3_8VC5MW  XM11
+timestamp 0
+transform 1 0 5099 0 1 1559
+box -175 -1979 175 1979
+use pfet_03v3_LTCJ4J  XM12
+timestamp 0
+transform 1 0 5386 0 1 -327
+box -142 -123 142 123
+use nfet_03v3_2H836Q  XM14
+timestamp 0
+transform 1 0 4105 0 1 -125
+box -275 -205 275 205
+use pfet_03v3_LTCJ4J  XM15
+timestamp 0
+transform 1 0 4492 0 1 -237
+box -142 -123 142 123
+use nfet_03v3_8VC5MW  XM16
+timestamp 0
+transform 1 0 4779 0 1 1589
+box -175 -1979 175 1979
+use pfet_03v3_LTCJ4J  XM17
+timestamp 0
+transform 1 0 5640 0 1 -357
+box -142 -123 142 123
+use pfet_03v3_LTCJ4J  XM18
+timestamp 0
+transform 1 0 5894 0 1 -387
+box -142 -123 142 123
+use nfet_03v3_VQRSSA  XM19
+timestamp 0
+transform 1 0 6181 0 1 -385
+box -175 -155 175 155
+use nfet_03v3_VQRSSA  XM20
+timestamp 0
+transform 1 0 6501 0 1 -415
+box -175 -155 175 155
+use nfet_03v3_VQRSSA  XM21
+timestamp 0
+transform 1 0 6821 0 1 -445
+box -175 -155 175 155
+<< end >>
