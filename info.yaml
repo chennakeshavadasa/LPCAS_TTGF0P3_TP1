@@ -59,6 +59,9 @@ pinout:
   ua[1]: "VINP"
   ua[2]: "VBIAS"
   ua[3]: "VOUT"
+  ua[4]: ""
+  ua[5]: ""
+
 
 
 # Do not change!
