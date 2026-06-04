@@ -13,7 +13,7 @@ To learn more and get started, visit https://tinytapeout.com.
 -->
 
 # Description
-TTGF0P3_LPCAS_FC_OTA is a low-power Folded Cascode Operational Transconductance Amplifier (OTA) designed in the TTGF0P3 process. The amplifier is optimized for low-current operation while maintaining a large input common-mode range and output swing, making it suitable for a wide variety of analog signal-processing applications.
+LPCAS_TTGF0P3_TP1 is a low-power Folded Cascode Operational Transconductance Amplifier (OTA) designed in the GF180MCU-D process. The amplifier is optimized for low-current operation while maintaining a large input common-mode range and output swing, making it suitable for a wide variety of analog signal-processing applications.
 
 Lab Website: https://sites.google.com/iitgn.ac.in/madhav-pathak
 
