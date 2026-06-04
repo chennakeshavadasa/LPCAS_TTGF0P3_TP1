@@ -37,7 +37,7 @@ Lab Website: https://sites.google.com/iitgn.ac.in/madhav-pathak
 
 ### Results 
 
-1. **Stability Plots******:
+1. **Stability Plots**:
 <img width="974" height="1147" alt="IEEE_STB" src="https://github.com/user-attachments/assets/cc2c69a4-71cf-4a7a-bc5a-c189824823f8" />
 
 2. **Transient Swing**:
