@@ -34,6 +34,19 @@ Lab Website: https://sites.google.com/iitgn.ac.in/madhav-pathak
 <img width="1920" height="898" alt="TTGF0P3_LPCAS_FC_OTA" src="https://github.com/user-attachments/assets/aeb6fc26-683b-4cb5-b855-a58dbbf8db5d" />
 
 ----
+### testbench Setup
+1. DC, TRAN, PSRR Testbench Setup
+   <img width="1920" height="898" alt="tb_TTGF0P3_LPCAS_FC_OTA_DC_PSRR_TRAN" src="https://github.com/user-attachments/assets/421510f0-5b1d-4f41-b28a-822e4c9b8218" />
+
+2. Stability Testbench Setup
+   
+   <img width="1920" height="898" alt="tb_TTGF0P3_LPCAS_FC_OTA_STB" src="https://github.com/user-attachments/assets/da8995f3-3aa6-4881-9a02-6401ad4ac221" />
+   
+3. Monte Carlo Testbench Setup
+   
+<img width="1920" height="898" alt="tb_TTGF0P3_LPCAS_FC_OTA_MC" src="https://github.com/user-attachments/assets/af6d18bc-d118-4242-ab1d-ac204d95ea24" />
+
+---
 
 ### Results 
 
