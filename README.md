@@ -31,26 +31,31 @@ Lab Website: https://sites.google.com/iitgn.ac.in/madhav-pathak
 
 ### Circuit Diagram 
 
-<img width="1920" height="898" alt="TTGF0P3_LPCAS_FC_OTA" src="https://github.com/user-attachments/assets/2f6ddc37-044c-4ddb-a3e2-6cfaa8c8d46b" />
+<img width="1920" height="898" alt="TTGF0P3_LPCAS_FC_OTA" src="https://github.com/user-attachments/assets/aeb6fc26-683b-4cb5-b855-a58dbbf8db5d" />
 
 ----
 
 ### Results 
 
 1. **Stability Plots**:
+   
 <img width="974" height="1147" alt="IEEE_STB" src="https://github.com/user-attachments/assets/cc2c69a4-71cf-4a7a-bc5a-c189824823f8" />
 
 2. **Transient Swing**:
+
 <img width="968" height="1032" alt="IEEE_TRAN" src="https://github.com/user-attachments/assets/06382d52-dba5-4f15-a72b-0dd61bf01151" />
 
 3. **PSRR**:
+   
 <img width="943" height="755" alt="IEEE_PSRR" src="https://github.com/user-attachments/assets/7dc3673f-140e-48be-b9ea-75468ba27b61" />
 
-4. **DC Input/output Swing in Unity Buffer Configuration**: 
+4. **DC Input/output Swing in Unity Buffer Configuration**:
+   
 <img width="937" height="1033" alt="IEEE_DC" src="https://github.com/user-attachments/assets/94728a10-fdf7-4b29-b086-156ac350c653" />
 
 5. **Monte Carlo Simulation(Offset)**
-<img width="1920" height="1440" alt="offset_monte_carlo_histogram_mv" src="https://github.com/user-attachments/assets/39ece079-7a5c-4926-ab92-ac34559e82fa" />
+   
+<img width="1920" height="1440" alt="offset_monte_carlo_histogram_mv" src="https://github.com/user-attachments/assets/4c4a3ecf-d432-436c-93e2-3f392e8a3fd9" />
 
 ---
 
