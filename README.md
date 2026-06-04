@@ -39,19 +39,23 @@ Lab Website: https://sites.google.com/iitgn.ac.in/madhav-pathak
 
 1. **Stability Plots**:
    
-<img width="974" height="1147" alt="IEEE_STB" src="https://github.com/user-attachments/assets/cc2c69a4-71cf-4a7a-bc5a-c189824823f8" />
+<img width="974" height="1147" alt="IEEE_STB" src="https://github.com/user-attachments/assets/a9aff87c-b539-458d-9d5e-fc5e6ac0e275" />
+
 
 2. **Transient Swing**:
 
-<img width="968" height="1032" alt="IEEE_TRAN" src="https://github.com/user-attachments/assets/06382d52-dba5-4f15-a72b-0dd61bf01151" />
+<img width="968" height="1033" alt="IEEE_TRAN" src="https://github.com/user-attachments/assets/6c5e8cbb-0ba8-4e54-bafb-d5e4af76f1d1" />
+
 
 3. **PSRR**:
    
-<img width="943" height="755" alt="IEEE_PSRR" src="https://github.com/user-attachments/assets/7dc3673f-140e-48be-b9ea-75468ba27b61" />
+<img width="943" height="755" alt="IEEE_PSRR" src="https://github.com/user-attachments/assets/cd0346d2-ea47-4daa-a185-0844edfb88d8" />
+
 
 4. **DC Input/output Swing in Unity Buffer Configuration**:
    
-<img width="937" height="1033" alt="IEEE_DC" src="https://github.com/user-attachments/assets/94728a10-fdf7-4b29-b086-156ac350c653" />
+<img width="937" height="1033" alt="IEEE_DC" src="https://github.com/user-attachments/assets/01be5019-0b2d-4290-8149-c9de49692be7" />
+
 
 5. **Monte Carlo Simulation(Offset)**
    
