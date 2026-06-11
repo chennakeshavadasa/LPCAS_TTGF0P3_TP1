@@ -183,33 +183,20 @@ N 940 -490 940 -430 {lab=ip_rhs_dr}
 N 750 -490 750 -430 {lab=ip_lhs_dr}
 N 560 -370 560 -310 {lab=VBIASCP}
 N 840 -300 840 -240 {lab=vs_diffpair}
-N 1510 -780 1540 -780 {lab=VAPWR}
-N 1510 -840 1510 -780 {lab=VAPWR}
-N 1510 -840 1580 -840 {lab=VAPWR}
-N 1580 -840 1580 -810 {lab=VAPWR}
-N 1580 -840 1630 -840 {lab=VAPWR}
-N 1630 -840 1630 -730 {lab=VAPWR}
-N 1580 -730 1630 -730 {lab=VAPWR}
-N 1580 -750 1580 -730 {lab=VAPWR}
-N 1580 -780 1630 -780 {lab=VAPWR}
-N 1510 -780 1510 -730 {lab=VAPWR}
-N 1510 -730 1580 -730 {lab=VAPWR}
-N 1480 -780 1510 -780 {lab=VAPWR}
-N 630 -690 690 -690 {lab=gf180mcu_gnd}
-N 630 -690 630 -620 {lab=gf180mcu_gnd}
-N 630 -620 690 -620 {lab=gf180mcu_gnd}
-N 690 -660 690 -620 {lab=gf180mcu_gnd}
-N 690 -620 730 -620 {lab=gf180mcu_gnd}
-N 730 -690 730 -620 {lab=gf180mcu_gnd}
-N 970 -540 1030 -540 {lab=gf180mcu_gnd}
-N 970 -540 970 -470 {lab=gf180mcu_gnd}
-N 970 -470 1030 -470 {lab=gf180mcu_gnd}
-N 1030 -510 1030 -470 {lab=gf180mcu_gnd}
-N 1030 -470 1070 -470 {lab=gf180mcu_gnd}
-N 1070 -540 1070 -470 {lab=gf180mcu_gnd}
-N 1030 -600 1030 -570 {lab=ip_rhs_dr}
-N 690 -720 760 -720 {lab=ip_lhs_dr}
-N 760 -720 760 -620 {lab=ip_lhs_dr}
+N 1010 -130 1070 -130 {lab=gf180mcu_gnd}
+N 1040 -130 1040 -100 {lab=gf180mcu_gnd}
+N 970 -130 970 -100 {lab=gf180mcu_gnd}
+N 970 -160 970 -130 {lab=gf180mcu_gnd}
+N 970 -160 1070 -160 {lab=gf180mcu_gnd}
+N 1070 -160 1110 -160 {lab=gf180mcu_gnd}
+N 1110 -160 1110 -130 {lab=gf180mcu_gnd}
+N 1110 -130 1110 -100 {lab=gf180mcu_gnd}
+N 1040 -160 1040 -130 {lab=gf180mcu_gnd}
+N 950 -750 950 -720 {lab=VAPWR}
+N 950 -780 950 -750 {lab=VAPWR}
+N 910 -720 950 -720 {lab=VAPWR}
+N 910 -750 910 -720 {lab=VAPWR}
+N 910 -780 910 -750 {lab=VAPWR}
 C {symbols/nfet_03v3.sym} 1200 -330 0 1 {name=M1
 L=1u
 W=4u
@@ -510,7 +497,7 @@ spiceprefix=X
 }
 C {lab_pin.sym} 470 -200 0 0 {name=p17 sig_type=std_logic lab=ua[2]}
 C {iopin.sym} 110 -470 0 1 {name=p9 lab=ua[2]}
-C {iopin.sym} 80 -100 0 1 {name=p10 sig_type=std_logic lab=gf180mcu_gnd
+C {iopin.sym} 80 -100 0 1 {name=p10 sig_type=std_logic lab=VGND
 }
 C {title.sym} 160 0 0 0 {name=l1 author="Nithin P and Pranay Patil from LPCAS group IITGn"}
 C {lab_pin.sym} 750 -590 0 0 {name=p13 sig_type=std_logic lab=ip_lhs_dr}
@@ -611,7 +598,7 @@ C {noconn.sym} 1910 -30 0 0 {name=l44}
 C {noconn.sym} 1910 -10 0 0 {name=l45}
 C {noconn.sym} 1910 10 0 0 {name=l46}
 C {noconn.sym} 1910 30 0 0 {name=l47}
-C {symbols/pfet_03v3.sym} 1560 -780 0 0 {name=M13
+C {symbols/pfet_03v3.sym} 930 -750 0 0 {name=M13
 L=1u
 W=8u
 nf=1
@@ -625,7 +612,7 @@ sa=0 sb=0 sd=0
 model=pfet_03v3
 spiceprefix=X
 }
-C {symbols/nfet_03v3.sym} 710 -690 0 1 {name=M22
+C {symbols/nfet_03v3.sym} 990 -130 0 1 {name=M22
 L=1u
 W=8.5u
 nf=1
@@ -639,8 +626,7 @@ sa=0 sb=0 sd=0
 model=nfet_03v3
 spiceprefix=X
 }
-C {lab_wire.sym} 630 -650 0 0 {name=p23 sig_type=std_logic lab=gf180mcu_gnd}
-C {symbols/nfet_03v3.sym} 1050 -540 0 1 {name=M23
+C {symbols/nfet_03v3.sym} 1090 -130 0 1 {name=M23
 L=1u
 W=8.5u
 nf=1
@@ -654,4 +640,3 @@ sa=0 sb=0 sd=0
 model=nfet_03v3
 spiceprefix=X
 }
-C {lab_wire.sym} 970 -500 0 0 {name=p29 sig_type=std_logic lab=gf180mcu_gnd}
