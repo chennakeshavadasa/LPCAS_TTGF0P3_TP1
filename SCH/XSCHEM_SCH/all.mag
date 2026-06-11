@@ -1,0 +1,13 @@
+magic
+tech gf180mcuD
+magscale 1 5
+timestamp 1780695639
+use nfet_03v3_JTTULN  XM11
+timestamp 0
+transform -1 0 1205 0 1 2099
+box -175 -1979 175 1979
+use nfet_03v3_25QJEJ  XM16
+timestamp 0
+transform 1 0 373 0 1 500
+box -403 -530 403 530
+<< end >>
