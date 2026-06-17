@@ -1,152 +1,354 @@
-MACRO combined
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO tt_um_LPCAS_TTGF0P3_TP1
   CLASS BLOCK ;
-  FOREIGN combined ;
-  ORIGIN 66.050 41.095 ;
-  SIZE 37.995 BY 56.560 ;
-  PIN ua[0]
-    ANTENNAGATEAREA 34.000000 ;
+  FOREIGN tt_um_LPCAS_TTGF0P3_TP1 ;
+  ORIGIN 0.000 0.000 ;
+  SIZE 346.640 BY 325.360 ;
+  PIN clk
     PORT
-      LAYER Metal1 ;
-        RECT -29.905 -23.480 -29.895 -23.470 ;
+      LAYER Metal4 ;
+        RECT 331.090 324.360 331.390 325.360 ;
     END
-  END ua[0]
+  END clk
+  PIN ena
+    PORT
+      LAYER Metal4 ;
+        RECT 338.370 324.360 338.670 325.360 ;
+    END
+  END ena
+  PIN rst_n
+    PORT
+      LAYER Metal4 ;
+        RECT 323.810 324.360 324.110 325.360 ;
+    END
+  END rst_n
+  PIN ui_in[0]
+    PORT
+      LAYER Metal4 ;
+        RECT 316.530 324.360 316.830 325.360 ;
+    END
+  END ui_in[0]
+  PIN ui_in[1]
+    PORT
+      LAYER Metal4 ;
+        RECT 309.250 324.360 309.550 325.360 ;
+    END
+  END ui_in[1]
+  PIN ui_in[2]
+    PORT
+      LAYER Metal4 ;
+        RECT 301.970 324.360 302.270 325.360 ;
+    END
+  END ui_in[2]
+  PIN ui_in[3]
+    PORT
+      LAYER Metal4 ;
+        RECT 294.690 324.360 294.990 325.360 ;
+    END
+  END ui_in[3]
+  PIN ui_in[4]
+    PORT
+      LAYER Metal4 ;
+        RECT 287.410 324.360 287.710 325.360 ;
+    END
+  END ui_in[4]
+  PIN ui_in[5]
+    PORT
+      LAYER Metal4 ;
+        RECT 280.130 324.360 280.430 325.360 ;
+    END
+  END ui_in[5]
+  PIN ui_in[6]
+    PORT
+      LAYER Metal4 ;
+        RECT 272.850 324.360 273.150 325.360 ;
+    END
+  END ui_in[6]
+  PIN ui_in[7]
+    PORT
+      LAYER Metal4 ;
+        RECT 265.570 324.360 265.870 325.360 ;
+    END
+  END ui_in[7]
+  PIN uio_in[0]
+    PORT
+      LAYER Metal4 ;
+        RECT 258.290 324.360 258.590 325.360 ;
+    END
+  END uio_in[0]
+  PIN uio_in[1]
+    PORT
+      LAYER Metal4 ;
+        RECT 251.010 324.360 251.310 325.360 ;
+    END
+  END uio_in[1]
+  PIN uio_in[2]
+    PORT
+      LAYER Metal4 ;
+        RECT 243.730 324.360 244.030 325.360 ;
+    END
+  END uio_in[2]
+  PIN uio_in[3]
+    PORT
+      LAYER Metal4 ;
+        RECT 236.450 324.360 236.750 325.360 ;
+    END
+  END uio_in[3]
+  PIN uio_in[4]
+    PORT
+      LAYER Metal4 ;
+        RECT 229.170 324.360 229.470 325.360 ;
+    END
+  END uio_in[4]
+  PIN uio_in[5]
+    PORT
+      LAYER Metal4 ;
+        RECT 221.890 324.360 222.190 325.360 ;
+    END
+  END uio_in[5]
+  PIN uio_in[6]
+    PORT
+      LAYER Metal4 ;
+        RECT 214.610 324.360 214.910 325.360 ;
+    END
+  END uio_in[6]
+  PIN uio_in[7]
+    PORT
+      LAYER Metal4 ;
+        RECT 207.330 324.360 207.630 325.360 ;
+    END
+  END uio_in[7]
+  PIN uo_out[0]
+    PORT
+      LAYER Metal4 ;
+        RECT 200.050 324.360 200.350 325.360 ;
+    END
+  END uo_out[0]
+  PIN uo_out[1]
+    PORT
+      LAYER Metal4 ;
+        RECT 192.770 324.360 193.070 325.360 ;
+    END
+  END uo_out[1]
+  PIN uo_out[2]
+    PORT
+      LAYER Metal4 ;
+        RECT 185.490 324.360 185.790 325.360 ;
+    END
+  END uo_out[2]
+  PIN uo_out[3]
+    PORT
+      LAYER Metal4 ;
+        RECT 178.210 324.360 178.510 325.360 ;
+    END
+  END uo_out[3]
+  PIN uio_oe[4]
+    PORT
+      LAYER Metal4 ;
+        RECT 54.450 324.360 54.750 325.360 ;
+    END
+  END uio_oe[4]
+  PIN uio_oe[5]
+    PORT
+      LAYER Metal4 ;
+        RECT 47.170 324.360 47.470 325.360 ;
+    END
+  END uio_oe[5]
+  PIN uio_oe[6]
+    PORT
+      LAYER Metal4 ;
+        RECT 39.890 324.360 40.190 325.360 ;
+    END
+  END uio_oe[6]
+  PIN uio_oe[7]
+    PORT
+      LAYER Metal4 ;
+        RECT 32.610 324.360 32.910 325.360 ;
+    END
+  END uio_oe[7]
+  PIN uio_out[0]
+    PORT
+      LAYER Metal4 ;
+        RECT 141.810 324.360 142.110 325.360 ;
+    END
+  END uio_out[0]
+  PIN uio_out[1]
+    PORT
+      LAYER Metal4 ;
+        RECT 134.530 324.360 134.830 325.360 ;
+    END
+  END uio_out[1]
+  PIN uio_out[2]
+    PORT
+      LAYER Metal4 ;
+        RECT 127.250 324.360 127.550 325.360 ;
+    END
+  END uio_out[2]
+  PIN uio_out[3]
+    PORT
+      LAYER Metal4 ;
+        RECT 119.970 324.360 120.270 325.360 ;
+    END
+  END uio_out[3]
+  PIN uio_out[4]
+    PORT
+      LAYER Metal4 ;
+        RECT 112.690 324.360 112.990 325.360 ;
+    END
+  END uio_out[4]
+  PIN uio_out[5]
+    PORT
+      LAYER Metal4 ;
+        RECT 105.410 324.360 105.710 325.360 ;
+    END
+  END uio_out[5]
+  PIN uio_out[6]
+    PORT
+      LAYER Metal4 ;
+        RECT 98.130 324.360 98.430 325.360 ;
+    END
+  END uio_out[6]
+  PIN uio_out[7]
+    PORT
+      LAYER Metal4 ;
+        RECT 90.850 324.360 91.150 325.360 ;
+    END
+  END uio_out[7]
+  PIN uio_oe[0]
+    PORT
+      LAYER Metal4 ;
+        RECT 83.570 324.360 83.870 325.360 ;
+    END
+  END uio_oe[0]
+  PIN uio_oe[1]
+    PORT
+      LAYER Metal4 ;
+        RECT 76.290 324.360 76.590 325.360 ;
+    END
+  END uio_oe[1]
+  PIN uio_oe[2]
+    PORT
+      LAYER Metal4 ;
+        RECT 69.010 324.360 69.310 325.360 ;
+    END
+  END uio_oe[2]
+  PIN uio_oe[3]
+    PORT
+      LAYER Metal4 ;
+        RECT 61.730 324.360 62.030 325.360 ;
+    END
+  END uio_oe[3]
+  PIN uo_out[4]
+    PORT
+      LAYER Metal4 ;
+        RECT 170.930 324.360 171.230 325.360 ;
+    END
+  END uo_out[4]
+  PIN uo_out[5]
+    PORT
+      LAYER Metal4 ;
+        RECT 163.650 324.360 163.950 325.360 ;
+    END
+  END uo_out[5]
+  PIN uo_out[6]
+    PORT
+      LAYER Metal4 ;
+        RECT 156.370 324.360 156.670 325.360 ;
+    END
+  END uo_out[6]
+  PIN uo_out[7]
+    PORT
+      LAYER Metal4 ;
+        RECT 149.090 324.360 149.390 325.360 ;
+    END
+  END uo_out[7]
+  PIN VAPWR
+    ANTENNAGATEAREA 16.250000 ;
+    ANTENNADIFFAREA 78.144997 ;
+    PORT
+      LAYER Metal4 ;
+        RECT 18.000 10.000 28.000 320.360 ;
+    END
+  END VAPWR
+  PIN VGND
+    ANTENNAGATEAREA 34.251999 ;
+    ANTENNADIFFAREA 79.833397 ;
+    PORT
+      LAYER Metal4 ;
+        RECT 4.000 10.000 14.000 320.360 ;
+    END
+  END VGND
+  PIN ua[5]
+    PORT
+      LAYER Metal4 ;
+        RECT 107.420 0.000 110.420 1.000 ;
+    END
+  END ua[5]
+  PIN ua[6]
+    PORT
+      LAYER Metal4 ;
+        RECT 63.740 0.000 66.740 1.000 ;
+    END
+  END ua[6]
+  PIN ua[7]
+    PORT
+      LAYER Metal4 ;
+        RECT 20.060 0.000 23.060 1.000 ;
+    END
+  END ua[7]
+  PIN ua[4]
+    PORT
+      LAYER Metal4 ;
+        RECT 151.100 0.000 154.100 1.000 ;
+    END
+  END ua[4]
   PIN ua[1]
     ANTENNAGATEAREA 34.000000 ;
     PORT
-      LAYER Metal1 ;
-        RECT -28.580 -23.480 -28.570 -23.470 ;
+      LAYER Metal4 ;
+        RECT 282.140 0.000 285.140 1.000 ;
     END
   END ua[1]
-  PIN ip_lhs_dr
-    ANTENNADIFFAREA 42.509998 ;
-    PORT
-      LAYER Metal1 ;
-        RECT -40.395 -20.040 -40.385 -20.030 ;
-    END
-  END ip_lhs_dr
-  PIN VBIASCP
-    ANTENNAGATEAREA 2.800000 ;
-    ANTENNADIFFAREA 1.545000 ;
-    PORT
-      LAYER Metal1 ;
-        RECT -53.950 -2.810 -53.940 -2.800 ;
-    END
-  END VBIASCP
-  PIN ua[3]
-    ANTENNADIFFAREA 4.390000 ;
-    PORT
-      LAYER Metal1 ;
-        RECT -52.150 3.265 -52.140 3.275 ;
-    END
-  END ua[3]
-  PIN mn_bot_lhs_dr
-    ANTENNADIFFAREA 3.660000 ;
-    PORT
-      LAYER Metal1 ;
-        RECT -50.460 7.845 -50.450 7.855 ;
-    END
-  END mn_bot_lhs_dr
-  PIN mn_bot_rhs_dr
-    ANTENNAGATEAREA 11.000000 ;
-    ANTENNADIFFAREA 10.995000 ;
-    PORT
-      LAYER Metal1 ;
-        RECT -50.455 6.685 -50.445 6.695 ;
-    END
-  END mn_bot_rhs_dr
-  PIN vbp_diode
-    ANTENNAGATEAREA 96.000000 ;
-    ANTENNADIFFAREA 4.390000 ;
-    PORT
-      LAYER Metal1 ;
-        RECT -47.765 -5.660 -47.755 -5.650 ;
-    END
-  END vbp_diode
-  PIN VAPWR
-    ANTENNAGATEAREA 16.000000 ;
-    ANTENNADIFFAREA 70.134995 ;
-    PORT
-      LAYER Metal1 ;
-        RECT -38.115 4.695 -38.105 4.705 ;
-    END
-  END VAPWR
   PIN ua[2]
     ANTENNAGATEAREA 84.000000 ;
     ANTENNADIFFAREA 1.220000 ;
     PORT
-      LAYER Metal1 ;
-        RECT -57.325 -11.835 -57.315 -11.825 ;
+      LAYER Metal4 ;
+        RECT 238.460 0.000 241.460 1.000 ;
     END
   END ua[2]
-  PIN gf180mcu_gnd
+  PIN ua[3]
+    ANTENNADIFFAREA 4.390000 ;
+    PORT
+      LAYER Metal4 ;
+        RECT 194.780 0.000 197.780 1.000 ;
+    END
+  END ua[3]
+  PIN ua[0]
     ANTENNAGATEAREA 34.000000 ;
-    ANTENNADIFFAREA 52.699997 ;
     PORT
-      LAYER Metal1 ;
-        RECT -61.255 -16.455 -61.245 -16.445 ;
+      LAYER Metal4 ;
+        RECT 325.820 0.000 328.820 1.000 ;
     END
-  END gf180mcu_gnd
-  PIN vs_diffpair
-    ANTENNADIFFAREA 33.799999 ;
-    PORT
-      LAYER Metal2 ;
-        RECT -41.960 -21.950 -41.950 -21.940 ;
-    END
-  END vs_diffpair
-  PIN ip_rhs_dr
-    ANTENNADIFFAREA 42.509998 ;
-    PORT
-      LAYER Metal3 ;
-        RECT -41.960 -20.040 -41.950 -20.030 ;
-    END
-  END ip_rhs_dr
+  END ua[0]
   OBS
       LAYER Nwell ;
-        RECT -53.920 -16.715 -38.395 12.345 ;
+        RECT 246.725 49.155 261.945 81.390 ;
       LAYER Metal1 ;
-        RECT -66.050 8.155 -28.055 15.465 ;
-        RECT -66.050 7.545 -50.760 8.155 ;
-        RECT -50.150 7.545 -28.055 8.155 ;
-        RECT -66.050 6.995 -28.055 7.545 ;
-        RECT -66.050 6.385 -50.755 6.995 ;
-        RECT -50.145 6.385 -28.055 6.995 ;
-        RECT -66.050 5.005 -28.055 6.385 ;
-        RECT -66.050 4.395 -38.415 5.005 ;
-        RECT -37.805 4.395 -28.055 5.005 ;
-        RECT -66.050 3.575 -28.055 4.395 ;
-        RECT -66.050 2.965 -52.450 3.575 ;
-        RECT -51.840 2.965 -28.055 3.575 ;
-        RECT -66.050 -2.500 -28.055 2.965 ;
-        RECT -66.050 -3.110 -54.250 -2.500 ;
-        RECT -53.640 -3.110 -28.055 -2.500 ;
-        RECT -66.050 -5.350 -28.055 -3.110 ;
-        RECT -66.050 -5.960 -48.065 -5.350 ;
-        RECT -47.455 -5.960 -28.055 -5.350 ;
-        RECT -66.050 -11.525 -28.055 -5.960 ;
-        RECT -66.050 -12.135 -57.625 -11.525 ;
-        RECT -57.015 -12.135 -28.055 -11.525 ;
-        RECT -66.050 -16.145 -28.055 -12.135 ;
-        RECT -66.050 -16.755 -61.555 -16.145 ;
-        RECT -60.945 -16.755 -28.055 -16.145 ;
-        RECT -66.050 -19.730 -28.055 -16.755 ;
-        RECT -66.050 -20.340 -40.695 -19.730 ;
-        RECT -40.085 -20.340 -28.055 -19.730 ;
-        RECT -66.050 -23.170 -28.055 -20.340 ;
-        RECT -66.050 -23.780 -30.205 -23.170 ;
-        RECT -29.595 -23.780 -28.880 -23.170 ;
-        RECT -28.270 -23.780 -28.055 -23.170 ;
-        RECT -66.050 -41.095 -28.055 -23.780 ;
+        RECT 6.500 22.050 270.070 81.370 ;
       LAYER Metal2 ;
-        RECT -62.825 -21.640 -28.055 13.145 ;
-        RECT -62.825 -22.250 -42.260 -21.640 ;
-        RECT -41.650 -22.250 -28.055 -21.640 ;
-        RECT -62.825 -39.585 -28.055 -22.250 ;
+        RECT 7.650 28.735 270.070 79.200 ;
       LAYER Metal3 ;
-        RECT -62.790 -19.730 -37.650 10.900 ;
-        RECT -62.790 -20.340 -42.260 -19.730 ;
-        RECT -41.650 -20.340 -37.650 -19.730 ;
-        RECT -62.790 -30.180 -37.650 -20.340 ;
+        RECT 7.650 29.200 269.900 79.200 ;
+      LAYER Metal4 ;
+        RECT 194.780 1.300 328.200 67.600 ;
+        RECT 198.080 1.000 238.160 1.300 ;
+        RECT 241.760 1.000 281.840 1.300 ;
+        RECT 285.440 1.000 325.520 1.300 ;
   END
-END combined
+END tt_um_LPCAS_TTGF0P3_TP1
 END LIBRARY
 
