@@ -2,7 +2,7 @@
 project:
   title:        "3.3V Folded Cascode OTA "      # Project title
   author:       "Nithin Purushothama and Pranay patil"      # Nithin Purushothama and Pranay patil
-  discord:      "nithinpuru_ams"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  discord:      "psquare9898"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "NMOS Input pair based Folded Cascode OTA"      # One line description of what your project does
   language:     "Analog" # other examples include Verilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
