@@ -78,6 +78,10 @@ Lab Website: https://sites.google.com/iitgn.ac.in/madhav-pathak
 
 ---
 
+### Layout
+<img width="3288" height="3254" alt="image" src="https://github.com/user-attachments/assets/b8ac333e-2088-49ce-bb68-0822e6a8b3e0" />
+
+
   
 
 
