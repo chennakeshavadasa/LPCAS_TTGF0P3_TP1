@@ -23,8 +23,9 @@ Lab Website: https://sites.google.com/iitgn.ac.in/madhav-pathak
 
 | Name | Affiliation | Email |
 |------|-------------|-------|
-| [**Nithin P**](https://www.linkedin.com/in/nithin-purushothama-70664727b/) | IIT Gandhinagar | [nithinpurushothama@gmail.com](mailto:nithinpurushothama@gmail.com) |
+
 | [**Pranay Arvind Patil**](https://www.linkedin.com/in/pranay-arvind-patil/) | IIT Gandhinagar | [pranay.patil@iitgn.ac.in](mailto:pranay.patil@iitgn.ac.in) |
+| [**Nithin P**](https://www.linkedin.com/in/nithin-purushothama-70664727b/) | IIT Gandhinagar | [nithinpurushothama@gmail.com](mailto:nithinpurushothama@gmail.com) |
 | [**Prof. Madhav Pathak**](https://iitgn.ac.in/faculty/ee/fac-madhav) | IIT Gandhinagar | [madhav.pathak@iitgn.ac.in](mailto:madhav.pathak@iitgn.ac.in) |
 
 ---
