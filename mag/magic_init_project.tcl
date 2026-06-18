@@ -9,7 +9,7 @@
 # Change the settings below to match your design:
 # ------------------------------------------------
 set TOP_LEVEL_CELL     tt_um_LPCAS_TTGF0P3_TP1
-set TEMPLATE_FILE      tt_analog_1x2.def
+set TEMPLATE_FILE      tt_analog_1x2_pgvaa.def
 set POWER_STRIPE_WIDTH 10um                 ;# The minimum width is 0.8um
 
 # Power stripes: NET name, x position. You can add additional power stripes for each net, as needed.
