@@ -21,9 +21,6 @@ Lab Website: https://sites.google.com/iitgn.ac.in/madhav-pathak
 
 ### People Involved:
 
-| Name | Affiliation | Email |
-|------|-------------|-------|
-
 | Name | Institution | Email |
 | :--- | :--- | :--- |
 | [**Pranay Arvind Patil**](https://www.linkedin.com/in/pranay-arvind-patil/) | IIT Gandhinagar | [pranay.patil@iitgn.ac.in](mailto:pranay.patil@iitgn.ac.in) |
